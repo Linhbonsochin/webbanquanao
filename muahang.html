@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>
+        Phản hồi
+    </title>
+    <meta charset="UTF-8" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>    
+<style>
+.button{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 20px;
+}
+.button button{
+    width: 40px;
+    height: 35px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    margin: 0 5px;
+    border: 1px solid #000;
+    transition: 0.3s;
+}
+
+.button button:hover{
+    background-color: #ababab;
+    color: #fff;
+}
+nav{
+    text-decoration: none;
+    padding: 10px ;
+}
+.ultren{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+}
+.ultren>.litren{
+    list-style: none;
+    font-size: 20px;
+}
+.ultren .litren:hover{
+    text-decoration: underline;
+    font-size: 22px;
+    color: white;
+}
+#button2{
+    width: 100px;
+    font-size: large;
+    color: black;
+}
+#button2:hover{
+    background-color: darkorange;
+}
+
+</style>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">G1DEV</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul id="ultren" class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li id="litren" class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Trang chủ</a>
+                </li>
+                <li id="litren" class="nav-item">
+                <a class="nav-link active " href="feedback.html">Phản hồi</a>
+                </li>
+                <li id="litren" class="nav-item dropdown">
+                <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Thể loại
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li id="litren"><a class="dropdown-item" href="aokhoac.html">Áo Khoác</a></li>
+                    <li id="litren"><a class="dropdown-item" href="donu.html">Đồ nữ</a></li>
+                    <li id="litren"><a class="dropdown-item" href="aophong.html">Áo phông</a></li>
+                    <li id="litren"><a class="dropdown-item" href="quan.html">Quần</a></li>
+                </ul>
+                </li>
+            </ul>
+        </div>
+        </nav>
+</header>
+    <style>
+            body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            }
+
+            header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            }
+
+            header h1 {
+            margin: 0;
+            }
+
+            main {
+            padding: 20px;
+            }
+
+            section {
+            border: 1px solid #ccc;
+            padding: 20px;
+            }
+
+            section h2 {
+            margin: 0;
+            }
+
+            section ul {
+            list-style: none;
+            padding: 0
+            }
+            ul{
+            text-decoration: none;
+            display: flex;
+            justify-content: space-between;
+            }
+            ul>li{
+                list-style: none;
+                font-size: 20px;
+            }
+            footer{
+            width: 100%;
+            padding: 10px 0px 10px 0px;
+            font-size: 20px;
+            text-align:center;
+        }
+    </style>
+        <html lang="vi">
+        <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Trang đặt hàng</title>
+        <link rel="stylesheet" href="style.css">
+        </head>
+        <body>
+        <header>
+            <h1>Mua đồ ở đây</h1>
+        </header>
+        <main>
+            <section class="order-info">
+            <h2>Thông tin đơn hàng</h2>
+            <ul>
+                <li>
+                <label for="product">Sản phẩm:</label>
+                <select id="product">
+                    <option value="">Chọn sản phẩm</option>
+                    <option value="product1">Mã sản phẩm số : 001</option>
+                    <option value="product2">Mã sản phẩm số : 002</option>
+                    <option value="product3">Mã sản phẩm số : 003</option>
+                    <option value="product4">Mã sản phẩm số : 004</option>
+                    <option value="product5">Mã sản phẩm số : 005</option>
+                    <option value="product6">Mã sản phẩm số : 006</option>
+                    <option value="product7">Mã sản phẩm số : 007</option>
+                    <option value="product8">Mã sản phẩm số : 008</option>
+                    <option value="product9">Mã sản phẩm số : 009</option>
+                    <option value="product10">Mã sản phẩm số : 010</option>
+                    <option value="product11">Mã sản phẩm số : 011</option>
+                    <option value="product12">Mã sản phẩm số : 012</option>
+                    <option value="product13">Mã sản phẩm số : 013</option>
+                    <option value="product14">Mã sản phẩm số : 014</option>
+                    <option value="product15">Mã sản phẩm số : 015</option>
+                    <option value="product16">Mã sản phẩm số : 016</option>
+                    <option value="product17">Mã sản phẩm số : 017</option>
+                    <option value="product18">Mã sản phẩm số : 018</option>
+                    <option value="product19">Mã sản phẩm số : 019</option>
+                    <option value="product20">Mã sản phẩm số : 020</option>
+                    <option value="product21">Mã sản phẩm số : 021</option>
+                    <option value="product22">Mã sản phẩm số : 022</option>
+                    <option value="product23">Mã sản phẩm số : 023</option>
+                    <option value="product24">Mã sản phẩm số : 024</option>
+                </select>
+                </li>
+                <li>
+                <label for="quantity">Số lượng:</label>
+                <input type="number" id="quantity" value="1">
+                </li>
+            </ul>
+            </section>
+            <section class="customer-info">
+            <h2>Thông tin khách hàng</h2>
+            <ul>
+                <li>
+                <label for="name">Họ tên:</label>
+                <input type="text" id="name">
+                </li>
+                <li>
+                <label for="email">Email:</label>
+                <input type="email" id="email">
+                </li>
+                <li>
+                <label for="phone">Số điện thoại:</label>
+                <input type="text" id="phone">
+                </li>
+                <li>
+                <label for="address">Địa chỉ:</label>
+                <input type="text" id="address">
+                </li>
+            </ul>
+            </section>
+            <section class="payment-method">
+            <h2>Phương thức thanh toán</h2>
+            <ul>
+                <li>
+                <input type="radio" id="cod" name="payment" value="cod" checked>
+                <label for="cod">Thanh toán khi nhận hàng</label>
+                </li>
+                <li>
+                <input type="radio" id="bank-transfer" name="payment" value="bank-transfer">
+                <label for="bank-transfer">Chuyển khoản ngân hàng</label>
+                </li>
+            </ul>
+            </section>
+            <section class="submit-order">
+            <a href="xacnhan.html"><button type="submit">Đặt hàng</button></a>
+            </section>
+        </main>
+        <footer>
+            <table width="100%" id="table1">
+                <tr>
+                    <td  color="white">
+                        <p id="id1"><h5>Copyright © 2024 | G1DEV - Đại nam university</h5></p>
+                    </td>
+                </tr>
+              </table>
+        </footer>      
+        </body>
+        </html>
+</html>

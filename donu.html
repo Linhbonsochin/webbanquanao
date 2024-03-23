@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+  <meta charset="UTF-8" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <head>
+        <title>
+            Đồ Nữ
+        </title>
+        
+        <style>
+            body {
+                 background-color:aliceblue;
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                }
+
+                #divbodytren {
+                background-color: #000;
+                color: #fff;
+                padding: 20px;
+                }
+
+                #banner {
+                height: 200px;
+                overflow: hidden;
+                }
+                
+                #divbodyduoi {
+                padding: 20px 20px 20px;
+                }
+
+                #divbodyduoi h2 {
+                text-align: center;
+                }
+
+                #divbodyduoi ul {
+                list-style: none;
+                padding: 40px;
+                }
+
+                #divbodyduoi li {
+                float: left;
+                width: 30%;
+                margin-top: auto;
+                margin-left: 30px;
+                text-align: center;
+                }
+
+                #divbodyduoi li a {
+                text-decoration: none;
+                color: #000;
+                }
+
+                #divbodyduoi li a img {
+                  margin-top: 20px;
+                width: 200px;
+                height: 250px;
+                }
+
+                #divbodyduoi li h3 {
+                margin-top: 10px;
+                }
+
+                #divbodyduoi li p {
+                margin-top: 5px;
+                }
+
+                #footer {
+                background-color: #000;
+                color: #fff;
+                padding: 20px;
+                text-align: center;
+                }
+                #h1{
+                    text-align: center;
+                }
+                #q1 {
+                  text-decoration: none;
+                  color: #fff;
+                  background-color: #000;
+                  padding: 10px;
+                  border-radius: 5px;
+                }
+
+                #q1:hover {
+                  background-color: #333;
+                }
+                footer{
+                    color: red;
+                    width: 100%;
+                    padding: 10px 0px 10px 0px;
+                    font-size: 14px;
+                }
+          .button{
+              width: 100%;
+              text-align: center;
+              position: absolute;
+              bottom: 20px;
+          }
+          .button button{
+              width: 40px;
+              height: 35px;
+              border-radius: 8px;
+              border: none;
+              cursor: pointer;
+              margin: 0 5px;
+              border: 1px solid #000;
+              transition: 0.3s;
+          }
+          
+          .button button:hover{
+              background-color: #ababab;
+              color: #fff;
+          }
+          nav{
+              text-decoration: none;
+              padding: 10px ;
+          }
+          #ultren{
+              text-decoration: none;
+              display: flex;
+              justify-content: space-between;
+          }
+          #ultren.litren{
+              list-style: none;
+              font-size: 20px;
+          }
+          #ultren .litren:hover{
+              text-decoration: underline;
+              font-size: 22px;
+              color: white;
+          }
+          ul>li>a{
+              text-decoration: none;
+              color: white;
+          }
+          button{
+              width: 100px;
+              font-size: large;
+          }
+          button:hover{
+              background-color: darkorange;
+          }
+          #atren{
+            text-decoration: none;
+          }
+          footer{
+            width: 100%;
+            padding: 10px 0px 10px 0px;
+            font-size: 20px;
+            text-align:center;
+        }
+        </style>
+    </head>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+              <a class="navbar-brand" >G1DEV</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul id="ultren" class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li id="litren" class="nav-item">
+                  <a id="atren" class="nav-link active" aria-current="page" href="index.html">Trang chủ</a>
+                  </li>
+                  <li id="litren" class="nav-item">
+                  <a id="atren" class="nav-link active " href="feedback.html">Phản hồi</a>
+                  </li>
+                  <li class="nav-item">
+                  <a class="nav-link active " href="muahang.html">Mua hàng</a>
+                  </li>
+                  <li id="litren" class="nav-item dropdown">
+                  <a id="atren" class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Thể loại
+                  </a>
+                  <ul  class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li ><a  class="dropdown-item" href="aokhoac.html">Áo Khoác</a></li>
+                      <li ><a  class="dropdown-item" href="donu.html">Đồ nữ</a></li>
+                      <li ><a  class="dropdown-item" href="aophong.html">Áo phông</a></li>
+                      <li ><a  class="dropdown-item" href="quan.html">Quần</a></li>
+                  </ul>
+                  </li>
+              </ul>
+              <form class="d-flex" action="/search">
+                  <input class="form-control me-2" type="search"  placeholder="Tìm kiếm sản phẩm" aria-label="Search">
+                  <button  class="btn btn-outline-success" type=""><a id="atren" href="index.html">Tìm kiếm</a></button>
+              </form>
+              </div>
+          </div>
+          </nav>
+  </header>
+    <body>
+      
+        <div id = "divbodytren">
+            <h1 id="h1"><a id="q1" href="banquanao.html">Danh sách sản phẩm</a></h1>
+          </div>
+          <div id="divbodyduoi">
+            <ul id="ulduoi">
+              <li id="liduoi">
+                <a id="aduoi" href="nu1.jpg">
+                  <img id="imgduoi" src="nu1.jpg" alt="Chân váy nhung mặt đá">
+                </a>
+                <h3 id="h3duoi">Chân váy nhung mặt đá</h3>
+                  <p>(Mua 1 Tặng 1 Áo Ngẫu Nhiên) Chân váy nhung mặt đá</p>
+                    <p>Ưu đãi : 449,000₫</p>
+                    <p class="tien"></p>Giá gốc :<del> 650,000₫</del></p>
+                    <p>Mã sản phẩm: 013</p>
+                    <button id="b1"><a id="ad" href="muahang.html">Đặt hàng</a></button>
+              </li>
+              <li id="liduoi">
+
+                <a id="aduoi" href="nu2.jpg">
+                  <img id="imgduoi" src="nu2.jpg" alt=" Chân váy chữ A">
+                </a>
+                <h3 id="h3duoi"> Chân váy chữ A</h3>
+                <p>(Mua 1 Tặng 1 Áo Ngẫu Nhiên)  Chân váy chữ A</p>
+                <p>Ưu đãi : 439,000₫</p>
+                <p class="tien"></p>Giá gốc :<del> 650,000₫</del></p>
+                <p>Mã sản phẩm: 014</p>
+                <button id="b1"><a id="ad" href="muahang.html">Đặt hàng</a></button>
+              </li>
+              <li id="liduoi">
+                <a id="aduoi" href="nu3.jpg">
+                  <img id="imgduoi" src="nu3.jpg" alt=" Quần ống xuông nữ">
+                </a>
+                <h3 id="h3duoi"> Quần ống xuông nữ</h3>
+                <p>(Mua 1 Tặng 1 Áo Ngẫu Nhiên) Quần ống xuông nữ xing</p>
+                <p>Ưu đãi : 439,000₫</p>
+                <p class="tien"></p>Giá gốc :<del> 650,000₫</del></p>
+                <p>Mã sản phẩm: 015</p>
+                <button id="b1"><a id="ad" href="muahang.html">Đặt hàng</a></button>
+              </li>
+              <li id="liduoi">
+                <a id="aduoi" href="nu4.jpg">
+                  <img id="imgduoi" src="nu4.jpg" alt=" Quần dù dây rút">
+                </a>
+                <h3 id="h3duoi"> Quần dù dây rút</h3>
+                  <p>(Mua 1 Tặng 1 Áo Ngẫu Nhiên)  Quần dù dây rút</p>
+                  <p>Ưu đãi : 439,000₫</p>
+                  <p class="tien"></p>Giá gốc :<del> 650,000₫</del></p>
+                  <p>Mã sản phẩm: 016</p>
+                  <button id="b1"><a id="ad" href="muahang.html">Đặt hàng</a></button>
+              </li>
+              <li id="liduoi">
+                <a id="aduoi" href="nu5.jpg">
+                  <img id="imgduoi" src="nu5.jpg" alt="Quần ống xuông kẻ caro">
+                </a>
+                <h3 id="h3duoi">Quần ống xuông kẻ caro</h3>
+                <p>(Mua 1 Tặng 1 Áo Ngẫu Nhiên) Quần ống xuông kẻ caro</p>
+                <p>Ưu đãi : 439,000₫</p>
+                <p class="tien"></p>Giá gốc :<del> 650,000₫</del></p>
+                <p>Mã sản phẩm: 017</p>
+                <button id="b1"><a id="ad" href="muahang.html">Đặt hàng</a></button>
+              </li>
+              <li id="liduoi">
+                <a id="aduoi" href="nu6.jpg">
+                  <img id="imgduoi" src="nu6.jpg" alt=" Quần nỉ kẻ sọc">
+                </a>
+                <h3 id="h3duoi"> Quần nỉ kẻ </h3>
+                <p>(Mua 1 Tặng 1 Áo Ngẫu Nhiên)  Quần nỉ kẻ sọc </p>
+                <p>Ưu đãi : 439,000₫</p>
+                <p class="tien"></p>Giá gốc :<del> 650,000₫</del></p>
+                <p>Mã sản phẩm: 018</p>
+                <button id="b1"><a id="ad" href="muahang.html">Đặt hàng</a></button>
+              </li>
+            </ul>
+            
+          </div> 
+          <footer>
+            <table width="100%" id="table1">
+                <tr>
+                    <td  color="white">
+                        <p id="id1"><h5>Copyright © 2024 | G1DEV - Đại nam university</h5></p>
+                    </td>
+                </tr>
+              </table>
+        </footer>      
+    </body>
+</html>
